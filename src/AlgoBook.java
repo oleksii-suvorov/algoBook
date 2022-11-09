@@ -7,7 +7,7 @@ public class AlgoBook {
     static int [] arr = new int[] { 5, 100,23, 4, 12, 52, 0, -1, -137 };
 
     public static void main(String[] args) {
-      System.out.println("Evklids: \n" + algoEvklids(2, 3));
+      System.out.println("Evklid's: \n" + algoEvklids(2, 3));
       bubbleSorting(Arrays.copyOf(arr, arr.length));
       insertionSorting(Arrays.copyOf(arr, arr.length));
       mergingAlgo(new int[] { -123, -12, 0, 23, 43, 911 }, new int[] { -13, 0, 3, 4, 5, 22, 91, 125, 146, 155 });
